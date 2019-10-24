@@ -1,0 +1,16 @@
+server:
+  port: 8081
+  # servlet-path: "/waesheroes/api/v1"
+
+spring:
+
+  datasource:
+    initialization-mode: "always"
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: "update"
+# data:
+#   rest:
+#     basePath: "/waesheroes/api/v1"

@@ -1,0 +1,24 @@
+
+SHORT ANALYSIS
+
+- I have kept most of the related methods and classes orginized in the proper packages
+
+ src/test/java has all java related packages, such as
+ 
+ 		- beans (Pojo clases for seriliazation  and deseriliazation (still cannot pronunce or spell these correctly :)
+ 		- runners
+ 		- step definitions of cucumber files by using related names
+ 		- utilities for any useful methods 
+ 		
+ src/test/resources has all feature files
+ 
+ 		- Normally I should have created all non Java files (properties, csv ..) under this branch 
+ 		however I saved some time by keeping them all in project level (did not worry about their path for now)
+ 
+ target folder has maven and reporting related files.
+ 
+ 		-No need to worry about other reports such as default-cucumber-report. This is very plain report and does not show much details.
+ 		-cucumber-html-reports folder all you need about reporting. It can save JSON, XML, jpeg ,... files as part of the report in embeddings 
+ 			folder. However I printed them into report instead of saving them as separate files. It could have been done easily, if needed.
+ 		
+ 		

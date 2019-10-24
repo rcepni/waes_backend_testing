@@ -1,0 +1,16 @@
+*.tmp
+target
+
+# Logs
+logs
+*.log
+
+# intellij and eclipse files
+*.iml
+.idea
+.vscode
+.settings
+.project
+.classpath
+.m2/
+appData/
